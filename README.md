@@ -44,3 +44,8 @@ It is organized into multiple Gradle projects for schema management, producers, 
 1. Start Kafka & Schema Registry:
    ```bash
    docker-compose up -d
+
+2. cd Creating_new_schema/avro-domain-events
+./gradlew build
+
+3../gradlew bootRun
